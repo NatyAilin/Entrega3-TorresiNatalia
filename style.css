@@ -1,32 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Expected digit.
+ *    ,
+ * 22 | .navBar{
+ *    |  ^
+ *    '
+ *   style.scss 22:2  root stylesheet */
 
-.navBar {
-  background-color: #A5A58D;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected digit.\a    \2577 \a 22 \2502  .navBar{\d\a    \2502   ^\a    \2575 \a   style.scss 22:2  root stylesheet";
 }
-
-.navBarT {
-  color: #FFE8D6;
-  font-size: 40px;
-}
-
-.logoT {
-  color: #DDBEA9;
-  font-size: 40px;
-}
-
-.logo {
-  height: 60px;
-  width: 100px;
-  border-radius: 0 50%;
-}
-
-.navItem {
-  color: black;
-  font-size: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
