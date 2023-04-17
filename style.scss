@@ -24,7 +24,9 @@ sans-serif;
     box-sizing: border-box;
 }
 
-body {
+// Inicio index principal
+
+.bodyInicio {
     background-color: #FAE1DD;
     background-image: url(./asset/img/imgBackTra.png);
     background-size: cover;
@@ -146,6 +148,70 @@ footer {
         color: #D8E2DC;
     }
 }
+
+// Fin Index Principal
+
+// Inicio Aprende
+
+.bodyAprende{
+    background-color: #F8EDEB;
+
+    .inicioA{
+        background-color: #D8E2DC;
+        padding: 70px;
+        margin: 0;
+        width: 100%;
+        height: 40px;
+        text-align: right;
+
+        .volverA{
+            font-family: $fuenteotroTitulo;
+            font-size: 40px;
+            color: #FEC89A;
+        }
+
+
+        .flechaA{
+            color: #FEC5BB;
+        }
+    }
+
+}
+
+h1{
+    font-family: $fuenteTitulo1;
+    color: #FEC5BB;
+    font-size: 60px;
+    text-align: center;
+    animation: backOutDown;
+    animation-duration: 6s;
+}
+
+.primeraParteAprende{
+    display: flex;
+
+    .pAprende{
+        width: 50%;
+        margin: 0;
+        font-family: $fuenteParrafo;
+        font-size: 30px;
+    }
+
+    .fotoLimpieza{
+        height: 500px;  
+        width: 50%;
+        margin: 0;
+    }
+}
+
+.segundaParteAprende{
+    
+}
+
+
+
+// Fin Aprende
+
 
 @media screen and (max-width: 560px) {
 

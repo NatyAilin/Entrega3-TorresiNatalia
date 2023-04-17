@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
+.bodyInicio {
   background-color: #FAE1DD;
   background-image: url(./asset/img/imgBackTra.png);
   background-size: cover;
@@ -110,6 +110,50 @@ footer i {
 }
 footer i:hover {
   color: #D8E2DC;
+}
+
+.bodyAprende {
+  background-color: #F8EDEB;
+}
+.bodyAprende .inicioA {
+  background-color: #D8E2DC;
+  padding: 70px;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+}
+.bodyAprende .inicioA .volverA {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  color: #FEC89A;
+}
+.bodyAprende .inicioA .flechaA {
+  color: #FEC5BB;
+}
+
+h1 {
+  font-family: "Alkatra", cursive;
+  color: #FEC5BB;
+  font-size: 60px;
+  text-align: center;
+  animation: backOutDown;
+  animation-duration: 6s;
+}
+
+.primeraParteAprende {
+  display: flex;
+}
+.primeraParteAprende .pAprende {
+  width: 50%;
+  margin: 0;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 30px;
+}
+.primeraParteAprende .fotoLimpieza {
+  height: 500px;
+  width: 50%;
+  margin: 0;
 }
 
 @media screen and (max-width: 560px) {
