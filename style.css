@@ -41,11 +41,11 @@ header {
   text-decoration-line: none;
 }
 
-section {
+.inicio {
   height: calc(100vh - 90px);
   width: 100%;
 }
-section h1 {
+.inicio h1 {
   font-family: "Alkatra", cursive;
   font-size: 90px;
   text-align: center;
@@ -55,7 +55,7 @@ section h1 {
   animation-duration: 5s;
   padding: 30px;
 }
-section h3 {
+.inicio h3 {
   font-family: "Satisfy", cursive;
   font-size: 60px;
   color: #D8E2DC;
@@ -63,29 +63,25 @@ section h3 {
   animation-duration: 3s;
   padding: 30px;
 }
-section h3 p {
+.inicio p {
   font-family: "M PLUS 1p", sans-serif;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
 }
-section h2 {
+.inicio h2 {
   font-family: "Satisfy", cursive;
   font-size: 50px;
   color: #D8E2DC;
   padding: 30px;
 }
-section h2 p {
-  font-family: "M PLUS 1p", sans-serif;
-  font-size: 20px;
-  color: black;
-}
-section ul {
+.inicio ul {
   font-family: "M PLUS 1p", sans-serif;
   font-size: 30px;
   padding: 30px;
   color: #FEC5BB;
 }
-section ul li {
+.inicio li {
   font-size: 20px;
   font-family: "M PLUS 1p", sans-serif;
   color: black;
@@ -143,6 +139,7 @@ h1 {
 
 .primeraParteAprende {
   display: flex;
+  margin: 0;
 }
 .primeraParteAprende .pAprende {
   width: 50%;
@@ -154,6 +151,27 @@ h1 {
   height: 500px;
   width: 50%;
   margin: 0;
+}
+
+.segundaParteAprende {
+  margin: 0;
+  padding: 30px;
+  width: 50%;
+}
+.segundaParteAprende li {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 25px;
+}
+
+.terceraParteAprende {
+  margin: 0;
+}
+.terceraParteAprende li {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 25px;
+}
+.terceraParteAprende .mito {
+  color: #FEC89A;
 }
 
 @media screen and (max-width: 560px) {
