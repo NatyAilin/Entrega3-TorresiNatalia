@@ -14,24 +14,20 @@ body {
 .navBar {
   background-color: #F8EDEB;
 }
-
-.navBarT {
+.navBar .navBarT {
   color: #FEC89A;
   font-size: 40px;
 }
-
-.logoT {
+.navBar .logoT {
   color: #FEC5BB;
   font-size: 40px;
 }
-
-.logo {
+.navBar .logo {
   height: 60px;
   width: 100px;
   border-radius: 0 50%;
 }
-
-.navLink {
+.navBar .navLink {
   color: #D8E2DC;
   font-size: 20px;
   text-decoration-line: none;
@@ -43,10 +39,19 @@ h1 {
   text-align: center;
   color: #FEC5BB;
   font-weight: 50px;
+  animation: shakeY;
+  animation-duration: 5s;
 }
 
-.imgInicio {
-  background-image: url(./);
+h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 60px;
+  color: #D8E2DC;
+}
+h3 p {
+  font-family: "M PLUS 1p", sans-serif;
+  color: black;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

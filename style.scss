@@ -1,66 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=M+PLUS+1p&family=Satisfy&display=swap');
 
+
 //font-family: 'Alkatra', cursive;
 //font-family: 'M PLUS 1p', sans-serif;
 //font-family: 'Satisfy', cursive;
 
 //Fuentes
 
-$fuenteTitulo1: 'Alkatra', cursive;
-$fuenteotroTitulo: 'Satisfy', cursive;
-$fuenteParrafo: 'M PLUS 1p', sans-serif;
+$fuenteTitulo1: 'Alkatra',
+cursive;
+$fuenteotroTitulo: 'Satisfy',
+cursive;
+$fuenteParrafo: 'M PLUS 1p',
+sans-serif;
 
 //Colores
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #FAE1DD;
     background-image: url(./asset/img/imgBackTra.png);
     background-size: cover;
+}
+
+.navBar {
+    background-color: #F8EDEB;
+
+    .navBarT {
+        color: #FEC89A;
+        font-size: 40px;
     }
 
-.navBar{
-    background-color: #F8EDEB;
+    .logoT {
+        color: #FEC5BB;
+        font-size: 40px;
+    }
+
+    .logo {
+        height: 60px;
+        width: 100px;
+        border-radius: 0 50%;
+    }
+
+    .navLink {
+        color: #D8E2DC;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+
 }
 
-.navBarT{
-    color: #FEC89A;
-    font-size: 40px;
-}
-    
-
-.logoT{
-    color: #FEC5BB;
-    font-size: 40px;
-}
-
-.logo{
-    height: 60px;
-    width: 100px;
-    border-radius: 0 50%;
-}
-
-.navLink{
-    color: #D8E2DC;
-    font-size: 20px;
-    text-decoration-line: none;
-}
-
-h1{
+h1 {
     font-family: $fuenteTitulo1;
     font-size: 90px;
     text-align: center;
     color: #FEC5BB;
     font-weight: 50px;
+    animation: shakeY;
+    animation-duration: 5s;
 }
 
-.imgInicio{
-    background-image: url(./)
+h3 {
+    font-family: $fuenteotroTitulo;
+    font-size: 60px;
+    color: #D8E2DC;
+
+    p {
+        font-family: $fuenteParrafo;
+        color: black;
+        font-size: 40px;
+    }
 }
