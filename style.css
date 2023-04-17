@@ -112,4 +112,81 @@ footer i:hover {
   color: #D8E2DC;
 }
 
+@media screen and (max-width: 560px) {
+  .navBar {
+    width: 150%;
+  }
+  .navBar .navBarT {
+    font-size: 20px;
+  }
+  .navBar .logoT {
+    font-size: 20px;
+  }
+  .navBar .logo {
+    height: 60px;
+    width: 100px;
+    border-radius: 0 50%;
+  }
+  .navBar .navLink {
+    font-size: 20px;
+  }
+  section {
+    padding: 0;
+    height: calc(30vh - 40px);
+    width: 30%;
+  }
+  section h1 {
+    font-size: 50px;
+    font-weight: 20px;
+    animation: shakeY;
+    animation-duration: 5s;
+    padding: 0px;
+    margin: 20px;
+  }
+  section h3 {
+    font-size: 60px;
+    animation: flash;
+    animation-duration: 3s;
+    padding: 30px;
+  }
+  section h3 p {
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    font-size: 25px;
+  }
+  section h2 {
+    font-size: 50px;
+    padding: 50px;
+    margin: 0;
+  }
+  section h2 p {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  section ul {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+    color: #FEC5BB;
+  }
+  section ul li {
+    font-size: 20px;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+  footer {
+    font-size: 30px;
+    text-align: center;
+    animation: wobble;
+    animation-duration: 5s;
+    padding: 50px;
+    margin: 0;
+    width: 90%;
+    height: 100px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
