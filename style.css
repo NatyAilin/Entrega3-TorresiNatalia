@@ -9,6 +9,14 @@ body {
   background-color: #FAE1DD;
   background-image: url(./asset/img/imgBackTra.png);
   background-size: cover;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
 }
 
 .navBar {
@@ -33,7 +41,11 @@ body {
   text-decoration-line: none;
 }
 
-h1 {
+section {
+  height: calc(100vh - 90px);
+  width: 100%;
+}
+section h1 {
   font-family: "Alkatra", cursive;
   font-size: 90px;
   text-align: center;
@@ -41,17 +53,63 @@ h1 {
   font-weight: 50px;
   animation: shakeY;
   animation-duration: 5s;
+  padding: 30px;
 }
-
-h3 {
+section h3 {
   font-family: "Satisfy", cursive;
   font-size: 60px;
   color: #D8E2DC;
+  animation: flash;
+  animation-duration: 3s;
+  padding: 30px;
 }
-h3 p {
+section h3 p {
   font-family: "M PLUS 1p", sans-serif;
   color: black;
-  font-size: 40px;
+  font-size: 25px;
+}
+section h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  color: #D8E2DC;
+  padding: 30px;
+}
+section h2 p {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+section ul {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 30px;
+  padding: 30px;
+  color: #FEC5BB;
+}
+section ul li {
+  font-size: 20px;
+  font-family: "M PLUS 1p", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ECE4DB;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  animation: wobble;
+  animation-duration: 5s;
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+}
+footer i {
+  font-size: 50px;
+  color: #FEC89A;
+  letter-spacing: 30px;
+}
+footer i:hover {
+  color: #D8E2DC;
 }
 
 /*# sourceMappingURL=style.css.map */
