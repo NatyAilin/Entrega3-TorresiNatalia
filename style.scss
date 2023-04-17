@@ -4,33 +4,40 @@
 //font-family: 'M PLUS 1p', sans-serif;
 //font-family: 'Satisfy', cursive;
 
-*´{
+//Fuentes
+
+$fuenteTitulo1: 'Alkatra', cursive;
+$fuenteotroTitulo: 'Satisfy', cursive;
+$fuenteParrafo: 'M PLUS 1p', sans-serif;
+
+//Colores
+
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-//font familiy
-$fuente-titulo1 : 'Alkatra', cursive;
-$funte-otroTitulo : 'Satisfy', cursive;
-$fuene-parrafos : 'M PLUS 1p', sans-serif;
-
-//colores
-$Color-Titulo1 :
-
+body{
+    background-color: #FAE1DD;
+    background-image: url(./asset/img/imgBackTra.png);
+    background-size: cover;
+    }
 
 .navBar{
-    background-color: #A5A58D;
+    background-color: #F8EDEB;
 }
 
 .navBarT{
-    color: #FFE8D6;
+    color: #FEC89A;
     font-size: 40px;
 }
     
 
 .logoT{
-    color: #DDBEA9;
+    color: #FEC5BB;
     font-size: 40px;
 }
 
@@ -40,11 +47,20 @@ $Color-Titulo1 :
     border-radius: 0 50%;
 }
 
-.navItem{
-    color: black;
+.navLink{
+    color: #D8E2DC;
     font-size: 20px;
+    text-decoration-line: none;
 }
 
 h1{
+    font-family: $fuenteTitulo1;
+    font-size: 90px;
+    text-align: center;
+    color: #FEC5BB;
+    font-weight: 50px;
+}
 
+.imgInicio{
+    background-image: url(./)
 }

@@ -1,17 +1,52 @@
-/* Error: Expected digit.
- *    ,
- * 22 | .navBar{
- *    |  ^
- *    '
- *   style.scss 22:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected digit.\a    \2577 \a 22 \2502  .navBar{\d\a    \2502   ^\a    \2575 \a   style.scss 22:2  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=M+PLUS+1p&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #FAE1DD;
+  background-image: url(./asset/img/imgBackTra.png);
+  background-size: cover;
+}
+
+.navBar {
+  background-color: #F8EDEB;
+}
+
+.navBarT {
+  color: #FEC89A;
+  font-size: 40px;
+}
+
+.logoT {
+  color: #FEC5BB;
+  font-size: 40px;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  border-radius: 0 50%;
+}
+
+.navLink {
+  color: #D8E2DC;
+  font-size: 20px;
+  text-decoration-line: none;
+}
+
+h1 {
+  font-family: "Alkatra", cursive;
+  font-size: 90px;
+  text-align: center;
+  color: #FEC5BB;
+  font-weight: 50px;
+}
+
+.imgInicio {
+  background-image: url(./);
+}
+
+/*# sourceMappingURL=style.css.map */
