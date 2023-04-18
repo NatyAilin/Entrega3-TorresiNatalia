@@ -210,9 +210,9 @@ h1 {
   width: 40%;
   margin: 0;
 }
-.inicioRs1 .li {
+.inicioRs1 li {
   font-family: "M PLUS 1p", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 .inicioRs1 h3 {
   font-family: "Satisfy", cursive;
@@ -237,6 +237,23 @@ h1 {
   font-family: "Satisfy", cursive;
   font-size: 40px;
   color: #FEC89A;
+}
+
+.InicioRecetaD1 .fotoDulce1 {
+  height: 500px;
+  width: 50%;
+  margin: 0;
+}
+.InicioRecetaD1 h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #FEC89A;
+  animation: flash;
+  animation-duration: 5s;
+}
+.InicioRecetaD1 li {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 480px) {

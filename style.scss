@@ -272,9 +272,9 @@ h1{
         margin: 0;
     }
 
-    .li{
+    li{
         font-family: $fuenteParrafo;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h3{
@@ -310,6 +310,27 @@ h1{
     }
 }
 
+.InicioRecetaD1{
+
+    .fotoDulce1{
+        height: 500px;
+        width: 50%;
+        margin: 0;
+    }
+
+    h3{
+        font-family: $fuenteotroTitulo;
+        font-size: 30px;
+        color: #FEC89A;
+        animation: flash;
+        animation-duration: 5s;
+    }
+
+    li{
+        font-family: $fuenteParrafo;
+        font-size: 20px;
+    }
+}
 
 // Fin Recetas Dulces
 
