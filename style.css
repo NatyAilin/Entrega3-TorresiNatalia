@@ -201,6 +201,27 @@ h1 {
   color: #FEC5BB;
 }
 
+.inicioRs1 {
+  display: flex;
+  flex-direction: column;
+}
+.inicioRs1 .fotoComida1 {
+  height: 500px;
+  width: 40%;
+  margin: 0;
+}
+.inicioRs1 .li {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 25px;
+}
+.inicioRs1 h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #FEC89A;
+  animation: flash;
+  animation-duration: 5s;
+}
+
 @media screen and (max-width: 480px) {
   .navBar {
     width: 150%;

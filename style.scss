@@ -261,6 +261,32 @@ h1{
     }
 }
 
+.inicioRs1{
+
+    display: flex;
+    flex-direction: column;
+
+    .fotoComida1{
+        height: 500px;  
+        width: 40%;
+        margin: 0;
+    }
+
+    .li{
+        font-family: $fuenteParrafo;
+        font-size: 25px;
+    }
+
+    h3{
+        font-family: $fuenteotroTitulo;
+        font-size: 30px;
+        color: #FEC89A;
+        animation: flash;
+        animation-duration: 5s;
+    }
+}
+
+
 // Fin Recetas Saladas
 
 
