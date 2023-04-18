@@ -235,6 +235,34 @@ h1{
 
 // Fin Aprende
 
+// Inicio Receta Saladas
+
+.bodySalado{
+    background-color: #F8EDEB;
+
+    .inicioS{
+        background-color: #D8E2DC;
+        padding: 70px;
+        margin: 0;
+        width: 100%;
+        height: 40px;
+        text-align: right;
+    }
+
+    .volverS{
+        font-family: $fuenteotroTitulo;
+        font-size: 40px;
+        color: #FEC89A;
+    }
+
+
+    .flechaS{
+        color: #FEC5BB;
+    }
+}
+
+// Fin Recetas Saladas
+
 
 @media screen and (max-width: 480px) {
 
@@ -345,6 +373,6 @@ h1{
         padding: 20px;
         height: 50px;
         width: 5%;
-        font-size: 10px;
+        font-size: 15px;
     }
 }

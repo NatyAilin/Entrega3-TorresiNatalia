@@ -181,6 +181,26 @@ h1 {
   color: #FEC89A;
 }
 
+.bodySalado {
+  background-color: #F8EDEB;
+}
+.bodySalado .inicioS {
+  background-color: #D8E2DC;
+  padding: 70px;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+}
+.bodySalado .volverS {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  color: #FEC89A;
+}
+.bodySalado .flechaS {
+  color: #FEC5BB;
+}
+
 @media screen and (max-width: 480px) {
   .navBar {
     width: 150%;
@@ -273,7 +293,7 @@ h1 {
     padding: 20px;
     height: 50px;
     width: 5%;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
