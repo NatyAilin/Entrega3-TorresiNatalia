@@ -273,6 +273,23 @@ h1 {
   color: #FEC89A;
 }
 
+.inicicioRecetaB1 .fotoBebida1 {
+  height: 20 0px;
+  width: 50%;
+  margin: 0;
+}
+.inicicioRecetaB1 h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #FEC89A;
+  animation: flash;
+  animation-duration: 5s;
+}
+.inicicioRecetaB1 li {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 480px) {
   .navBar {
     width: 150%;

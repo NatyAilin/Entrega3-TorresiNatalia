@@ -355,6 +355,28 @@ h1{
     }
 }
 
+.inicicioRecetaB1{
+
+    .fotoBebida1{
+        height: 20  0px;
+        width: 50%;
+        margin: 0;
+    }
+
+    h3{
+        font-family: $fuenteotroTitulo;
+        font-size: 30px;
+        color: #FEC89A;
+        animation: flash;
+        animation-duration: 5s;
+    }
+
+    li{
+        font-family: $fuenteParrafo;
+        font-size: 20px;
+    }
+}
+
 // Fim Bebidas
 
 
