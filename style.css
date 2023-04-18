@@ -222,6 +222,23 @@ h1 {
   animation-duration: 5s;
 }
 
+.bodyDulce {
+  background-color: #F8EDEB;
+}
+.bodyDulce .inicioS {
+  background-color: #D8E2DC;
+  padding: 70px;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+}
+.bodyDulce .volverS {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  color: #FEC89A;
+}
+
 @media screen and (max-width: 480px) {
   .navBar {
     width: 150%;
